@@ -1,0 +1,191 @@
+body {
+  background-image: url("img/2.jpg");
+  background-size: cover;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.main-class {
+  background: transparent;
+  max-width: 600px;
+  width: 90%;
+  height: 500px;
+  margin: 200px auto;
+  border-radius: 10px;
+}
+
+.add-class {
+  width: 100%;
+
+  background: rgba(255, 255, 255, 0);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  margin: 10px auto;
+  padding: 30px;
+  border-radius: 5px;
+  margin-bottom: 40px;
+}
+
+.add-class input {
+  display: block;
+  width: 95%;
+  height: 40px;
+  margin: 10px auto;
+  border: 2px;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 0px 5px;
+  background-color: rgba(255, 255, 255, 0.904);
+}
+
+.add-class button {
+  display: block;
+  width: 95%;
+  height: 40px;
+  margin: 10px auto;
+  border: none;
+  outline: none;
+  background: #6b8dd6;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-size: 300% 100%;
+
+  border-radius: 5px;
+
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.add-class button:hover {
+  background-position: 100% 0;
+
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  background-image: linear-gradient(
+    to right,
+    #667eea,
+    #764ba2,
+    #6b8dd6,
+    #8e37d7
+  );
+  box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+}
+
+.add-class button span {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+}
+
+#errorMes {
+  display: block;
+  background: #f2dede;
+  width: 95%;
+  margin: 0px auto;
+  color: rgb(139, 19, 19);
+  padding: 10px;
+  height: 35px;
+}
+
+.show-todo-class {
+  width: 100%;
+
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0);
+  border-radius: 5px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.6px);
+  -webkit-backdrop-filter: blur(3.6px);
+  border: 1px solid rgba(255, 255, 255, 0.68);
+}
+
+.todo-item {
+  width: 95%;
+  margin: 10px auto;
+  padding: 20px 10px;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.089);
+  border-radius: 5px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(14.3px);
+  border: 1px solid rgba(255, 255, 255, 0.68);
+}
+.todo-item h2 {
+  display: inline-block;
+  padding: 5px 0px;
+  font-size: 17px;
+  font-family: sans-serif;
+  color: rgb(238, 238, 238);
+}
+
+.todo-item small {
+  display: block;
+  width: 100%;
+  padding: 5px 0px;
+  color: rgb(182, 182, 182);
+  padding-left: 30px;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+.remove-to-do {
+  display: block;
+  float: right;
+  width: 20px;
+  height: 20px;
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-align: right;
+  padding: 0px 5px 8px 0px;
+  border-radius: 50%;
+  transition: background 1s;
+  cursor: pointer;
+}
+
+.remove-to-do:hover {
+  background: rgb(139, 97, 93);
+  color: #fff;
+}
+
+.checked {
+  color: #999 !important;
+  text-decoration: line-through;
+}
+input.check-box {
+  width: 10px;
+}
+.todo-item input {
+  margin: 0px 5px;
+}
+
+.empty {
+  font-family: sans-serif;
+  font-size: 16px;
+  text-align: center;
+  color: #cccc;
+}
+
+h5 {
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: 100;
+  color: #fff;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
